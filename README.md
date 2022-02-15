@@ -91,7 +91,7 @@ As the repo is still in its infancy, feel free to either open an issue, discussi
 - Lucas Hideki Ueda (lucashueda@gmail.com)
 
 ## Github references
-- [Coqui-AI](https://github.com/NVIDIA/DeepLearningExamples)
+- [Coqui-AI](https://github.com/coqui-ai/TTS)
 - [Facebook Fairseq](https://github.com/pytorch/fairseq)
 - [NVIDIA Deep Learning Examples](https://github.com/NVIDIA/DeepLearningExamples)
 - [NVIDIA Mellotron](https://github.com/NVIDIA/mellotron/tree/d5362ccae23984f323e3cb024a01ec1de0493aff)
