@@ -22,7 +22,7 @@ This repository comprises a compilation of the objective metrics used in several
 ## How to Run
 First, clone and enter the repo:
 ```sh
-git clone https://github.com/leonardoboulitreau/TTS-Objective-Metrics
+git clone https://github.com/AI-Unicamp/TTS-Objective-Metrics
 cd TTS-Objective-Metrics
 ```
 
@@ -55,6 +55,8 @@ Alternatively, it is possible to calculate a single metric for a pair of (ground
 ```sh
 # For DTW, FFE, GPE, VDE
 python -m metrics.DTW --gt_path 'ground_truth_audio.wav' --synth_path 'synthesized_audio.wav' --pitch_algorithm 'yin'
+```
+```
 # For MSD or MCD   
 python -m metrics.MSD --gt_path 'path_to_ground_truth_audio.wav' --synth_path 'path_to_synthesized_audio.wav'           
 ```
