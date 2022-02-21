@@ -11,12 +11,13 @@ This repository comprises a compilation of the objective metrics used in several
 | Dynamic Time Warping (DTW) | [FastSpeech2](https://arxiv.org/abs/2006.04558) |
 | Mel Spectral Distortion (MSD) | [Wave-Tacotron](https://arxiv.org/abs/2011.03568) |
 | Mel Cepstral Distortion (MCD) | [E2E-Prosody](https://arxiv.org/pdf/1803.09047.pdf), [Wave-Tacotron](https://arxiv.org/abs/2011.03568) |
+| Statistical Moments (STD, SKEW, KURT) | [FastSpeech2](https://arxiv.org/abs/2006.04558) |
 
 ## Available Pitch Computation
 | Alogrithm | Proposed In |
 | ------ | ------ |
 | YIN | [(Cheveigné and Kawahara, 2002)](http://audition.ens.fr/adc/pdf/2002_JASA_YIN.pdf) |
-| DIO | [(Morise,Kawahara, and Katayose, 2009)](https://www.aes.org/e-lib/browse.cfm?elib=15165)|
+| DIO | [(Morise, Kawahara, and Katayose, 2009)](https://www.aes.org/e-lib/browse.cfm?elib=15165)|
 | PYIN (Testing) | [(Mauch and Dixon, 2014)](https://ieeexplore.ieee.org/document/6853678) |
 
 ## How to Run
@@ -53,7 +54,7 @@ The result will be saved in a file named metrics.json in the main repo folder: '
 
 Alternatively, it is possible to calculate a single metric for a pair of (ground truth, synthesized) audio, by choosing an available metric and pitch computation method (yin or dio) with one of the following commands:
 ```sh
-# For DTW, FFE, GPE, VDE
+# For DTW, FFE, GPE, VDE, moments
 python -m metrics.DTW --gt_path 'ground_truth_audio.wav' --synth_path 'synthesized_audio.wav' --pitch_algorithm 'yin'
 ```
 ```
