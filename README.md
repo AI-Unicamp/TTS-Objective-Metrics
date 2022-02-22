@@ -80,6 +80,7 @@ The result will be displayed in the terminal.
  ┃ ┣ 📜GPE.py\
  ┃ ┣ 📜helpers.py\
  ┃ ┣ 📜MCD.py\
+ ┃ ┣ 📜moments.py\
  ┃ ┣ 📜MSD.py\
  ┃ ┣ 📜VDE.py\
  ┣ 📜README.md
