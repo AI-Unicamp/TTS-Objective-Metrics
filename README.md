@@ -48,7 +48,7 @@ The main usage of the repo is to calculate all available metrics for a batch of 
 
 Then, choose one pitch computing algorithm and run the following command:
 ```sh
-  python -m bin.compute_metrics --gt_folderpath 'My Audio\Ground Truths' --synth_path 'My Audio\Synthesizeds' --pitch_algorithm 'yin'
+  python -m bin.compute_metrics --gt_folder_path 'My Audio\Ground Truths' --synth_folder_path 'My Audio\Synthesizeds' --pitch_algorithm 'yin'
 ``` 
 The result will be saved in a file named metrics.json in the main repo folder: 'TTS Objective Metrics/metrics.json'.
 
