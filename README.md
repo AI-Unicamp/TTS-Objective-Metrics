@@ -14,7 +14,7 @@ This repository comprises a compilation of the objective metrics used in several
 | Statistical Moments (STD, SKEW, KURT) | [FastSpeech2](https://arxiv.org/abs/2006.04558) |
 
 ## Available Pitch Computation
-| Alogrithm | Proposed In |
+| Algorithm | Proposed In |
 | ------ | ------ |
 | YIN | [(Cheveigné and Kawahara, 2002)](http://audition.ens.fr/adc/pdf/2002_JASA_YIN.pdf) |
 | DIO | [(Morise, Kawahara, and Katayose, 2009)](https://www.aes.org/e-lib/browse.cfm?elib=15165)|
